@@ -1,5 +1,6 @@
 /* boxmodel */
 
+/* This is to see all the borders of the elements */
 /* * {
 	border: 1px dotted darkgray;
 	outline: 1px dotted black;
@@ -8,6 +9,8 @@
 /* Base stuff */
 
 html {
+	background-color: #111;
+	color: #ddd;
 	box-sizing: border-box;
 }
 
@@ -38,7 +41,7 @@ a>span {
 
 /* links */
 body a {
-	color: #800;
+	color: #C80000;
 	text-decoration: none;
 }
 
@@ -56,7 +59,7 @@ body a:hover {
 }
 
 .copyright {
-	color: #800;
+	color: #C80000;
 }
 
 p {
