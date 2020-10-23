@@ -1,7 +1,7 @@
 {
-	"name": "NostraDavid",
-	"short_name": "NostraDavid",
-	"description": "NostraDavid's personal site",
+	"name": "POwerEmperor",
+	"short_name": "POwerEmperor",
+	"description": "POwerEmperor's Gaming Site",
 	"icons": [
 		{
 			"sizes": "192x192",
@@ -21,8 +21,8 @@
 		"games",
 		"social",
 	],
-	"theme_color": "#880000",
-	"background_color": "#880000",
+	"theme_color": "#C80000",
+	"background_color": "#C80000",
 	"display": "minimal-ui",
 	"scope": "/",
 	"start_url": "/index.html",
