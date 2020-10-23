@@ -1,0 +1,64 @@
+/* boxmodel */
+
+/* * {
+	border: 1px dotted darkgray;
+	outline: 1px dotted black;
+} */
+
+/* Base stuff */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* main */
+
+main {
+	padding: 0 20px 0 20px;
+	margin: 0 20px 0 20px;
+}
+
+h2>a {
+	display: flex;
+	align-items: center;
+}
+
+a>span {
+	padding: 0 0 0 .3em;
+}
+
+/* links */
+body a {
+	color: #800;
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: underline;
+}
+
+.anchor::before {
+	content: "§ "
+}
+
+.crypto-address {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: xx-small
+}
+
+.copyright {
+	color: #800;
+}
+
+p {
+	text-align: justify
+}
