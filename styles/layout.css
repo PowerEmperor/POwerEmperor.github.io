@@ -2,7 +2,8 @@
 body {
   display: grid;
   grid-template-areas:
-    "header header header header"
+		"header header header header"
+		"nav-bar nav-bar nav-bar nav-bar"
     ". main aside ."
     ". footer footer .";
 }
@@ -13,7 +14,8 @@ body>header {
 }
 
 body>nav {
-  grid-area: menu-bar;
+	text-align: center;
+  grid-area: nav-bar;
 }
 
 body>main {
@@ -32,6 +34,7 @@ body>aside {
   body {
 		grid-template-areas:
 		"header"
+		"nav-bar"
 		"main"
 		"aside"
     "footer";
