@@ -32,7 +32,7 @@ header {
 /* main */
 
 nav {
-	background-color: #C80000;
+	background-color: #A80000;
 	box-shadow: 0 5px 5px #333;
 }
 
@@ -57,7 +57,7 @@ a>span {
 /* links */
 
 body a {
-	color: #C80000;
+	color: #A80000;
 	text-decoration: none;
 }
 
@@ -82,7 +82,31 @@ nav>a {
 
 nav>a:hover {
 	background-color: #000;
-	color: #800;
+	color: #A80000;
+}
+
+table {
+	margin: 18px 0 0 0;
+	border: 1px solid #C80000;
+	border-collapse: collapse;
+	box-shadow: 0 5px 5px #333;
+	font-family: Tahoma, sans-serif
+}
+
+table th {
+	background-color: #A80000;
+	border: 1px solid #A80000;
+	color: #fff;
+	margin: 0;
+	padding: .25em
+}
+
+table td {
+	border: 1px solid #A80000;
+	margin: 0;
+	padding: .25em;
+	text-align: left;
+	vertical-align: top
 }
 
 .crypto-address {
@@ -91,7 +115,7 @@ nav>a:hover {
 }
 
 .copyright {
-	color: #C80000;
+	color: #A80000;
 }
 
 p {
