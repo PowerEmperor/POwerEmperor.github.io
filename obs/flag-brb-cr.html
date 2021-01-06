@@ -1,0 +1,49 @@
+<style>
+	body {
+		background-color: rgb(0, 100, 200);
+	}
+
+	.flag {
+		/* flag-image size */
+		width: 1920px;
+		height: 1080px;
+	}
+
+	.flag-element {
+		animation: oscill 1s ease-in-out infinite alternate;
+		/* png seems better for performance than SVG*/
+		background: url('https://powerempire.net/images/obs/pe-flag-brb-cr.jpg');
+		/* width = flag-image width*/
+		background-size: 1920px 100%;
+		position: relative;
+		height: 100%;
+		width: 1px;
+		display: inline-block;
+	}
+
+	@keyframes oscill {
+
+		/* Wave height */
+		0% {
+			top: 2%;
+		}
+
+		100% {
+			top: -2%;
+		}
+	}
+</style>
+
+<div class='flag'></div>
+
+<script>
+	const flag = document.querySelector(".flag")
+	const flagWidth = flag.clientWidth;
+	for (let i = 0; i < flagWidth; i++) {
+		const flagElement = document.createElement("div");
+		flagElement.classList.add("flag-element");
+		flagElement.style.backgroundPosition = `${-i}px 0`;
+		flagElement.style.animationDelay = `${i * 3.0}ms`;
+		flag.appendChild(flagElement);
+	}
+</script>
