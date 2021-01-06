@@ -12,7 +12,7 @@
 	.flag-element {
 		animation: oscill 1s ease-in-out infinite alternate;
 		/* png seems better for performance than SVG*/
-		background: url('https://powerempire.net/images/Flags/PE-Flag-BRB.png');
+		background: url('https://powerempire.net/images/obs/pe-flag-brb.png');
 		/* width = flag-image width*/
 		background-size: 1920px 100%;
 		position: relative;
@@ -43,7 +43,7 @@
 		const flagElement = document.createElement("div");
 		flagElement.classList.add("flag-element");
 		flagElement.style.backgroundPosition = `${-i}px 0`;
-		flagElement.style.animationDelay = `${i * 2.5}ms`;
+		flagElement.style.animationDelay = `${i * 3.0}ms`;
 		flag.appendChild(flagElement);
 	}
 </script>
